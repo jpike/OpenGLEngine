@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Containers\Array2D.h" />
+    <ClInclude Include="code\ErrorHandling\NullChecking.h" />
+    <ClInclude Include="code\Graphics\Camera.h" />
+    <ClInclude Include="code\Graphics\Color.h" />
+    <ClInclude Include="code\Graphics\Object3D.h" />
+    <ClInclude Include="code\Graphics\OpenGL\GraphicsDevice.h" />
+    <ClInclude Include="code\Graphics\OpenGL\OpenGL.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Renderer.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\FragmentShader.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\FragmentShaderDescription.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\PredefinedShaders.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\ShaderProgram.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\ShaderProgramDescription.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\VertexShader.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\VertexShaderDescription.h" />
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\VertexShaderInputVariable.h" />
+    <ClInclude Include="code\Graphics\OpenGL\VertexBuffer.h" />
+    <ClInclude Include="code\Graphics\Triangle.h" />
+    <ClInclude Include="code\Graphics\Vertex.h" />
+    <ClInclude Include="code\Math\Angle.h" />
+    <ClInclude Include="code\Math\Matrix4x4.h" />
+    <ClInclude Include="code\Math\Vector2.h" />
+    <ClInclude Include="code\Math\Vector3.h" />
+    <ClInclude Include="code\ThirdParty\OpenGL\glext.h" />
+    <ClInclude Include="code\ThirdParty\OpenGL\wglext.h" />
+    <ClInclude Include="code\Windowing\Win32Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\Graphics\Camera.cpp" />
+    <ClCompile Include="code\Graphics\Color.cpp" />
+    <ClCompile Include="code\Graphics\Object3D.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\GraphicsDevice.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\OpenGL.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Renderer.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\FragmentShader.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\FragmentShaderDescription.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\PredefinedShaders.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\ShaderProgram.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\ShaderProgramDescription.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\VertexShader.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\VertexShaderDescription.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\VertexShaderInputVariable.cpp" />
+    <ClCompile Include="code\Graphics\OpenGL\VertexBuffer.cpp" />
+    <ClCompile Include="code\Graphics\Triangle.cpp" />
+    <ClCompile Include="code\Graphics\Vertex.cpp" />
+    <ClCompile Include="code\Windowing\Win32Window.cpp" />
+    <ClCompile Include="code\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat" />
+    <None Include="OpenGL.project">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46D99A72-17AF-4E62-809F-EECB637F6EE1}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectName>OpenGL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeOutput>build\OpenGL.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>build\</OutDir>
+    <IntDir>build\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeOutput>build\OpenGL.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>$(SolutionDir)build\</OutDir>
+    <IntDir>$(SolutionDir)build\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeOutput>build\OpenGL.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>build\</OutDir>
+    <IntDir>build\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeOutput>build\OpenGL.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>$(SolutionDir)build\</OutDir>
+    <IntDir>$(SolutionDir)build\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

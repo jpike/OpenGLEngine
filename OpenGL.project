@@ -1,0 +1,27 @@
+// GRAPHICS LIBRARY.
+// Windows.h must be included before GL.h.
+#include <Windows.h>
+
+#include "Graphics/Camera.cpp"
+#include "Graphics/Color.cpp"
+#include "Graphics/Object3D.cpp"
+#include "Graphics/OpenGL/GraphicsDevice.cpp"
+#include "Graphics/OpenGL/OpenGL.cpp"
+#include "Graphics/OpenGL/Renderer.cpp"
+#include "Graphics/OpenGL/Shaders/FragmentShader.cpp"
+#include "Graphics/OpenGL/Shaders/FragmentShaderDescription.cpp"
+#include "Graphics/OpenGL/Shaders/PredefinedShaders.cpp"
+#include "Graphics/OpenGL/Shaders/ShaderProgram.cpp"
+#include "Graphics/OpenGL/Shaders/ShaderProgramDescription.cpp"
+#include "Graphics/OpenGL/Shaders/VertexShader.cpp"
+#include "Graphics/OpenGL/Shaders/VertexShaderDescription.cpp"
+#include "Graphics/OpenGL/Shaders/VertexShaderInputVariable.cpp"
+#include "Graphics/OpenGL/VertexBuffer.cpp"
+#include "Graphics/Triangle.cpp"
+#include "Graphics/Vertex.cpp"
+
+// WINDOWING LIBRARY.
+#include "Windowing/Win32Window.cpp"
+
+// MAIN EXAMPLE PROJECT.
+#include "WinMain.cpp"

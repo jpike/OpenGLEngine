@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\WinMain.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\Camera.cpp">
+      <Filter>code\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\Color.cpp">
+      <Filter>code\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\Object3D.cpp">
+      <Filter>code\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\Triangle.cpp">
+      <Filter>code\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\Vertex.cpp">
+      <Filter>code\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\GraphicsDevice.cpp">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\OpenGL.cpp">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Renderer.cpp">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\VertexBuffer.cpp">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\FragmentShader.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\FragmentShaderDescription.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\PredefinedShaders.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\ShaderProgram.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\ShaderProgramDescription.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\VertexShader.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\VertexShaderDescription.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Graphics\OpenGL\Shaders\VertexShaderInputVariable.cpp">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Windowing\Win32Window.cpp">
+      <Filter>code\Windowing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat" />
+    <None Include="OpenGL.project" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="code">
+      <UniqueIdentifier>{96873809-db68-49b8-8a4b-a40a3c3972f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\Containers">
+      <UniqueIdentifier>{63039f3d-e0e2-4b38-a915-ffa58dba98d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\ErrorHandling">
+      <UniqueIdentifier>{ae7030e4-7aa6-433e-91ea-138df01b2782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\Graphics">
+      <UniqueIdentifier>{73e39e41-279f-43ad-85ce-6a38ef44a752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\Math">
+      <UniqueIdentifier>{60ee51c8-64e7-4211-9410-bd0e754c9570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\ThirdParty">
+      <UniqueIdentifier>{f09fb007-d323-4341-a354-c6488fab99be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\Windowing">
+      <UniqueIdentifier>{6820c809-6444-4cf3-8efb-63ddc272f3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\Graphics\OpenGL">
+      <UniqueIdentifier>{d39ae3e5-3e5d-4341-9eb3-5b1b7d6b18f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\Graphics\OpenGL\Shaders">
+      <UniqueIdentifier>{aefc6fbb-cdf7-4b84-bd50-1520cc99dec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\ThirdParty\OpenGL">
+      <UniqueIdentifier>{5f8162c8-6bc8-439c-8340-dd82b8bd9278}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Containers\Array2D.h">
+      <Filter>code\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ErrorHandling\NullChecking.h">
+      <Filter>code\ErrorHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\Camera.h">
+      <Filter>code\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\Color.h">
+      <Filter>code\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\Object3D.h">
+      <Filter>code\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\Triangle.h">
+      <Filter>code\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\Vertex.h">
+      <Filter>code\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\GraphicsDevice.h">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\OpenGL.h">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Renderer.h">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\VertexBuffer.h">
+      <Filter>code\Graphics\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\FragmentShader.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\FragmentShaderDescription.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\PredefinedShaders.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\ShaderProgram.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\ShaderProgramDescription.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\VertexShader.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\VertexShaderDescription.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Graphics\OpenGL\Shaders\VertexShaderInputVariable.h">
+      <Filter>code\Graphics\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Math\Angle.h">
+      <Filter>code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Math\Matrix4x4.h">
+      <Filter>code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Math\Vector2.h">
+      <Filter>code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Math\Vector3.h">
+      <Filter>code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Windowing\Win32Window.h">
+      <Filter>code\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ThirdParty\OpenGL\glext.h">
+      <Filter>code\ThirdParty\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ThirdParty\OpenGL\wglext.h">
+      <Filter>code\ThirdParty\OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -2,7 +2,7 @@
 
 REM PUT THE COMPILER IN THE PATH IF IT ISN'T ALREADY.
 WHERE cl.exe
-IF %ERRORLEVEL% NEQ 0 CALL "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+IF %ERRORLEVEL% NEQ 0 CALL "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
 
 REM READ THE BUILD MODE COMMAND LINE ARGUMENT.
 REM Either "debug" or "release" (no quotes).
